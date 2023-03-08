@@ -1,0 +1,34 @@
+.app {
+  background: #5390ff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-inline:  5%; 
+  font-family: 'Manrope';
+  font-style: normal;
+}
+
+.app > .backgroundIcon {
+  position: absolute;
+  z-index: 0;
+}
+.app > .backgroundIcon:first-of-type {
+  left: 32%;
+  top: 2%;
+  width: 80%;
+  height: 82%;
+}
+
+.app > .backgroundIcon:last-of-type {
+  width: 20%;
+  height: 36%;
+  left: 2.25%;
+  bottom: -25%;
+}
+
+.app > h1 {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 85px;
+  color: #ffffff;
+}
