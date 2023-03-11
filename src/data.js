@@ -1,29 +1,28 @@
-
-import HomeCareIcon from "./assets/homeCare";
-import PrimaryCareIcon from "./assets/primaryCare";
-import HospitalCareIcon from "./assets/hospitalCare";
+import StarIcon from "./assets/StarIcon";
+import RectangleIcon from "./assets/RectangleIcon";
+import TriangleIcon from "./assets/TriangleIcon";
 
 export const services = [
 
   {
     id: 0,
-    cardstyles: "homeCareCardStyles",
-    title: "Home Care",
-    text: "But I must explain to you how all this mistaken idea of denouncing,",
-    icon: <HomeCareIcon />,
+    cardstyles: "firstCardStyles",
+    title: "Card Title ",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    icon: <StarIcon />,
   },
   {
     id: 1,
-    cardstyles: "primaryCareCardStyles",
-    title: "Primary Care",
-    text: "Personalized care for your physical and mental well-being",
-    icon: <PrimaryCareIcon />,
+    cardstyles: "secondCardStyles",
+    title: "Card Title ",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    icon: <RectangleIcon />,
   },
   {
     id: 2,
-    cardstyles: "hospitalCareCardStyles",
-    title: "Hospital Care",
-    text: "Expert care when you need it most, with advanced technology",
-    icon: <HospitalCareIcon />,
+    cardstyles: "thirdCardStyles",
+    title: "Card Title ",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    icon: <TriangleIcon />,
   },
 ];

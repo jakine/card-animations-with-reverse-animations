@@ -1,14 +1,14 @@
 import styles from "./style/App.module.css";
 import ServiceSection from "./components/ServiceSection";
-import HeartShape from "./assets/heartShape.js";
+import StarIcon from "./assets/StarIcon";
 
 function App() {
   return (
     <div className={styles.app}>
-      <HeartShape className={styles.backgroundIcon} strokeWidth={3} />
-      <HeartShape className={styles.backgroundIcon} strokeWidth={6} />
+     <StarIcon className={styles.backgroundIcon} strokeWiddth={3} />
+      <StarIcon className={styles.backgroundIcon} strokewidth={6} />
 
-      <h1>Service Section Design</h1>
+      <h1 className={styles.textshadowmoving}>Section Design</h1>
       <ServiceSection />
      
     </div>

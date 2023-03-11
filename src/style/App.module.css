@@ -1,5 +1,5 @@
 .app {
-  background: #5390ff;
+  background: #3333adc6;
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -13,10 +13,11 @@
   z-index: 0;
 }
 .app > .backgroundIcon:first-of-type {
-  left: 32%;
+
+  left: 45%;
   top: 2%;
-  width: 80%;
-  height: 82%;
+  width: 73%;
+  height: 100%;
 }
 
 .app > .backgroundIcon:last-of-type {
